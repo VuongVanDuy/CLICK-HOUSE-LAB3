@@ -4,7 +4,6 @@ from clickhouse_driver import Client
 import pandas as pd
 from typing import List, Dict, Any, Tuple
 
-# ==================== CẤU HÌNH ====================
 CONFIG = {
     'clickhouse_host': 'localhost',
     'clickhouse_port': 9000,
